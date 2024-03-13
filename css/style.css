@@ -30,7 +30,7 @@
 
  /* 10 multiplas regras */
  h2{
-    border-bottom:  2px dotted red;
+    border-bottom:  2px solid rgb(0, 0, 0);
 }
 
 .titulo{
@@ -168,4 +168,38 @@ padding: 5px 20px 40px 10px;
     color: blue;
     padding: 15px;
     border-radius: 25px;
+}
+.box-model{
+    margin: 20px;
+    background-color: aquamarine;
+    padding: 15px 25px ;
+    border: 2px solid red;
+    width: 200px;
+    height: 400px;
+}
+
+#box-model2{
+    margin: 10px;
+    background-color: chocolate;
+    padding: 10px 20px ;
+    border: 50px solid black;
+    width: 250px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+button{
+    /* margin: 85px; */
+    color: white;
+    background-color: #111;
+    margin-top: 300px;
+    margin-left: 115px;
+    border-radius: 15px;
+    font-family: monospace;
+    outline: 5px solid;
+
+}
+
+#ola{
+    text-align: center;
 }
